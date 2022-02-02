@@ -1,0 +1,264 @@
+// Copyright 2018 The Flutter team. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+import 'package:flutter/material.dart';
+import 'text.dart';
+import 'container.dart';
+import 'image.dart';
+import 'sample1.dart';
+import 'row.dart';
+import 'sample2.dart';
+import 'latihan1.dart';
+import 'latihan2.dart';
+import 'latihan3.dart';
+import 'latihan4.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Ruslan Ramdani APK',
+      debugShowCheckedModeBanner: false,
+      home: Latihan4Widget(),
+    );
+  }
+}
+
+class Latihan4Widget extends StatelessWidget {
+  const Latihan4Widget({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(colors: [Colors.cyanAccent, Colors.lightBlue]),
+      ),
+      child: ListView(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        "PROGRAMMER SMK ASSALAAM",
+                        style: TextStyle(fontSize: 30),
+                      )),
+                  Container(
+                    width: 490,
+                    height: 350,
+                    margin: EdgeInsets.all(5),
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage('asset/images/programmer.jpg'),
+                        fit: BoxFit.cover,
+                      ),
+                      gradient: LinearGradient(colors: [
+                        Colors.pinkAccent,
+                        Colors.blueAccent,
+                      ]),
+                    ),
+                  ),
+                  Container(
+                    width: 490,
+                    height: 500,
+                    margin: EdgeInsets.all(5),
+                    decoration: BoxDecoration(
+                        gradient: LinearGradient(colors: [
+                          Colors.greenAccent,
+                          Colors.redAccent,
+                        ]),
+                        borderRadius: BorderRadius.circular(15)),
+                    child: Center(
+                      child: Text(
+                        "Lorem Ipsum adalah contoh text atau dummy\ndalam industri percetakan dan penataan huruf \natay typesetting. Lorem Ipsum telag menjadi",
+                        style: TextStyle(color: Colors.white, fontSize: 12),
+                      ),
+                    ),
+                  ),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Container(
+                          width: 200,
+                          height: 100,
+                          margin: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/pikachu.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                        Container(
+                          width: 200,
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/pikachu.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                      ]),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Container(
+                          width: 200,
+                          height: 100,
+                          margin: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/ucing.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                        Container(
+                          width: 200,
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/ucing.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                      ]),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Container(
+                          width: 200,
+                          height: 100,
+                          margin: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/ucing.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                        Container(
+                          width: 200,
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/ucing.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                      ]),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Container(
+                          width: 200,
+                          height: 100,
+                          margin: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/ucing.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                        Container(
+                          width: 200,
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/ucing.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                      ]),
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Container(
+                          width: 200,
+                          height: 100,
+                          margin: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/ucing.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                        Container(
+                          width: 200,
+                          margin: EdgeInsets.all(10),
+                          height: 100,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: AssetImage('asset/images/ucing.jpg'),
+                                fit: BoxFit.cover,
+                              ),
+                              gradient: LinearGradient(colors: [
+                                Colors.pinkAccent,
+                                Colors.blueAccent,
+                              ]),
+                              borderRadius: BorderRadius.circular(20)),
+                        ),
+                      ]),
+                ],
+              ),
+            ],
+          )
+        ],
+      ),
+    );
+  }
+}
